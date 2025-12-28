@@ -1,0 +1,405 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1b1b1b;
+}
+header {
+  width: 100%;
+  background-color: #010200;
+  border-bottom: 2px solid white;
+  position: fixed;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 4%;
+}
+.logohead {
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  font-size: 115%;
+  display: flex;
+  gap: 20%;
+  padding: 0% 2%;
+}
+.nav-btn a {
+  text-decoration: none;
+  color: white;
+}
+.nav-btn a:hover {
+  color: #05ff22 !important;
+}
+.home {
+  color: #05ff22 !important;
+}
+.contect {
+  border: 1px solid #ffffff;
+  padding: 1%;
+  background-color: #010200;
+  cursor: pointer;
+}
+.contect:hover {
+  background-color: #01af18;
+  color: #010200;
+}
+.contect a {
+  text-decoration: none;
+  color: white;
+}
+.contect:hover a .arrow {
+  background-color: #01af18;
+  color: #010200;
+}
+.arrow {
+  font-weight: bolder;
+  font-size: 120%;
+  color: #01af18;
+}
+
+/*  mainBody */
+.hero {
+  background-image: url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTc1OTE4Ni13aWtpbWVkaWEtaW1hZ2Uta293YmRoZWcuanBn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-top {
+  text-transform: uppercase;
+  font-size: 275%;
+  line-height: 1.2;
+  padding-top: 12%;
+  margin-left: 8%;
+  color: white;
+}
+.green {
+  color: #05ff22;
+}
+.italic {
+  font-style: italic;
+  font-weight: lighter;
+}
+.trans {
+  color: transparent;
+  -webkit-text-stroke: 1px #05ff22;
+}
+.hero-mid {
+  color: white;
+  padding-right: 22%;
+  margin-left: 8%;
+  margin-top: 1%;
+  line-height: 175%;
+}
+.hero-trust {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  margin-left: 7%;
+}
+.hero-trust img {
+  width: 10%;
+  height: 1%;
+  margin: 1%;
+}
+.hero-brands {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  color: #ffffff;
+  padding: 2%;
+  font-size: 150%;
+  margin-left: 6%;
+}
+.hero-hr {
+  width: 35%;
+  height: 2px;
+  background-color: #454750;
+}
+/* mid */
+.aboutcom {
+  background-color: #1b1b1b;
+  display: flex;
+  width: 92%;
+  height: 100vh;
+  column-gap: 10%;
+  margin: 0 8%;
+  padding-bottom: 7%;
+  padding-top: 3%;
+}
+.leftlogo {
+  display: flex;
+  justify-content: center;
+  width: 37%;
+  align-content: center;
+  background-image: url("https://www.tortok.com/wp-content/uploads/2024/05/testimonialv2-4-4-10.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.leftlogo img {
+  width: 70%;
+}
+.rightpart {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  row-gap: 5%;
+}
+.div1 {
+  border: 1px solid #303135;
+  border-radius: 30vh;
+  max-width: 23%;
+  padding: 1%;
+  color: #6af7a7;
+  text-align: center;
+  font-size: 105%;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  color: white;
+  
+}
+.ag1 {
+  font-size: 365%;
+}
+.ag {
+  font-size: 365%;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.digital {
+  max-width: 80%;
+  line-height: 172%;
+  font-size: 114%;
+}
+.div3 {
+  display: flex;
+  column-gap: 5%;
+  font-size: 95%;
+  line-height: 175%;
+  font-weight: bold;
+  color: white;
+}
+.div4 {
+  max-width: 20%;
+  border: 1px solid #303135;
+  padding: 2% 1%;
+  
+  text-align: center;
+  border-radius: 100vh;
+}
+.div4 button {
+  background-color: transparent;
+  border: none;
+  font-size: 105%;
+}
+.div4 button a {
+  text-decoration: none;
+  color: white;
+}
+.div4 a:hover {
+  color: #03a318;
+}
+.service-area {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  color: #3be786;
+}
+.service-area img {
+  width: 75vh;
+  height: 45vh;
+}
+.service-one-left,
+.service-one-right,
+.service-two-left,
+.service-two-right,
+.service-three-left,
+.service-three-right {
+  cursor: pointer;
+}
+.service-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2%;
+}
+.service-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2%;
+}
+.hr {
+  width: 75vh;
+  height: 2px;
+  background-color: #3e3e3e;
+  margin: 5% 0 7%;
+}
+.service-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2%;
+}
+.all-works {
+  border: 1px solid white;
+  border-radius: 30vh;
+  max-width: 12%;
+  padding: 1%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  position: relative;
+  left: 75%;
+}
+.all-works button {
+  background-color: transparent;
+  border: none;
+  font-size: 105%;
+}
+.all-works a {
+  text-decoration: none;
+  color: white;
+}
+.all-works:hover a {
+  color: #05ff22;
+}
+.sign {
+  font-weight: bold;
+  font-size: 150%;
+}
+.all-works:hover .sign {
+  color: #6af7a7;
+}
+/* end */
+footer {
+  color: white;
+  max-width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.first {
+  background-color: black;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 5% 7.5%;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+}
+.para {
+  max-width: 87%;
+  text-align: left;
+  margin-top: 20px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 23%;
+  text-align: left;
+}
+.head {
+  text-transform: uppercase;
+  display: flex;
+}
+.loc1,
+.loc2 {
+  font-size: 95%;
+  margin: 3% 0;
+  max-width: 90%;
+  display: flex;
+}
+.loc1 :hover {
+  color: #ff7f50;
+}
+.loc2 :hover {
+  color: #ff7f50;
+}
+.email :hover {
+  color: #ff7f50;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  text-align: left;
+  row-gap: 5%;
+}
+.hrs {
+  width: 1%;
+  height: 90%;
+  background-color: #24d484;
+  margin-right: 5%;
+}
+.heading {
+  display: flex;
+}
+.email {
+  display: flex;
+}
+.four {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  text-transform: uppercase;
+  gap: 5%;
+}
+.media {
+  display: flex;
+  margin-top: 10%;
+}
+.fb,
+.twitter,
+.insta {
+  padding: 5%;
+  background-color: #3b3a3a;
+  margin-right: 5%;
+}
+.fb:hover {
+  background-color: white;
+}
+.fb i {
+  color: #ffffff;
+}
+.media :hover i {
+  color: #ff7f50;
+}
+.twitter:hover {
+  background-color: white;
+}
+.twitter i {
+  color: #ffffff;
+}
+.insta:hover {
+  background-color: white;
+}
+.insta i {
+  color: #ffffff;
+}
+.second {
+  background-color: #343333;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+}
